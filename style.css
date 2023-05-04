@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+.heading{
+    color: green;
+}
+
+.respond{
+    padding: 1em;
+    margin:1em;
+    border: 1px solid gainsboro;
+    border-radius: 1em;
+}
+
+.catphotos{
+    background-color: lightblue;
+    flex: 1;
+}
+
+.catlists{
+    background-color: gray;
+    flex: 1;
+}
+
+.catform{
+    background-color: lightblue;
+    flex: 1;
+}
+
+.contact{
+
+    background-color: gray;
+}
+
+@media (min-width:960px)
+{
+    .flexing{
+        display: flex;
+    }
+
+}
